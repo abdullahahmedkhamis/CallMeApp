@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1027961096763",
+    "firebase_url": "https://callmeapp-51e69.firebaseio.com",
+    "project_id": "callmeapp-51e69",
+    "storage_bucket": "callmeapp-51e69.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1027961096763:android:bcfe6d17927d8089",
+        "android_client_info": {
+          "package_name": "com.example.callmeapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1027961096763-34o2flktr4p2vj1jnkcu37h8p9f3divi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.callmeapp",
+            "certificate_hash": "ceea167e5e1f216b7d5ee02d497513db3253f0b5"
+          }
+        },
+        {
+          "client_id": "1027961096763-952q1v3joidkn6c5rj86320kpk76mgop.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4f6kpXkNy6R7FHftrX1UfqTH_z6ohr7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1027961096763-952q1v3joidkn6c5rj86320kpk76mgop.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

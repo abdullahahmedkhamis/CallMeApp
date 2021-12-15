@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logres"
+    tools:context=".DriverLoginRegisterActivity">
+
+    <TextView
+        android:id="@+id/driver_status"
+        android:layout_width="410dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="270dp"
+        android:layout_marginBottom="270dp"
+        android:gravity="center"
+        android:text="Driver Login"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/email_driver"
+        android:layout_width="410dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="270dp"
+        android:layout_marginBottom="270dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="E-mail..."
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password_driver"
+        android:layout_width="410dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="270dp"
+        android:layout_marginBottom="270dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/driver_login_btn"
+        android:layout_width="410dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="470dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="270dp"
+        android:layout_marginBottom="270dp"
+        android:gravity="center"
+        android:text="Login" />
+
+    <TextView
+        android:id="@+id/driver_register_link"
+        android:layout_width="210dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="530dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="270dp"
+        android:layout_marginBottom="270dp"
+        android:gravity="center"
+        android:text="Don't_have_an_account" />
+
+    <Button
+        android:id="@+id/driver_register_btn"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="270dp"
+        android:layout_marginBottom="270dp"
+        android:gravity="center"
+        android:text="@string/register" />
+</RelativeLayout>
